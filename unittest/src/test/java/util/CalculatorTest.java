@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculatorTest {
     Calculator calculator;
+    
     @BeforeEach
     void setup() {
         calculator = new Calculator();
@@ -21,6 +22,7 @@ public class CalculatorTest {
     void testPowerBaseZeroPowerZero() {
         assertEquals(1, calculator.power(0, 0));
     }
+    
     @Test
     void testPowerBasePositivePowerZero() {
         assertEquals(1, calculator.power(5,0));
