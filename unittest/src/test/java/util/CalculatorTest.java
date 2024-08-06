@@ -25,12 +25,12 @@ public class CalculatorTest {
     
     @Test
     void testPowerBasePositivePowerZero() {
-        assertEquals(1, calculator.power(5,0));
+        assertEquals(1, calculator.power(5, 0));
     }
 
     @Test
     void testPowerBasePositivePowerOne() {
-        assertEquals(5, calculator.power(5,1));
+        assertEquals(5, calculator.power(5, 1));
     }
 
     @Test
